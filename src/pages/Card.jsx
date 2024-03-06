@@ -33,7 +33,7 @@ function Card(){
             </p>
             <p className="text-blue-200">{cities[0].musica}</p>
            
-            <span className="text-blue-200">{cities[0].isVisited}</span>
+           
             {cities[0].isVisited && <span className="text-blue-200">V visitata</span>}
             {!cities[0].isVisited && <span className="text-blue-200">X non visitata</span>}
         

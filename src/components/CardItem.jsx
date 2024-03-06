@@ -19,7 +19,7 @@ function CardItem({title,imgURL,isVisited,color,strumento,musica,documento,child
             </p>
             <p className="text-gray-200">{musica}</p>
             <p className="text-gray-200">Documento</p>
-            <span className="text-gray-200">{visitedLabel}</span>
+            
             {isVisited && <span className="text-gray-200">V visitata</span>}
             {!isVisited && <span className="text-gray-200">X non visitata</span>}
         </div>
