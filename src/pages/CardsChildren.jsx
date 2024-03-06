@@ -10,7 +10,7 @@ function CardsChildren(){
         <>
         <Navbar></Navbar>
         <h1 className="text-3xl font-bold mb-10">
-            Pagina con tutte le cards con link a sottopagina
+            Pagina con tutte le cards con link a sottopagina Children
         </h1>
         <div className='grid grid-cols-4 gap-10'>
       
